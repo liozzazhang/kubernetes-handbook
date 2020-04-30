@@ -207,7 +207,7 @@ kubelet的配置文件`/etc/kubernetes/kubelet`。其中的IP地址更改为你�
 KUBELET_ADDRESS="--address=172.20.0.113"
 #
 ## The port for the info server to serve on
-#KUBELET_PORT="--port=10250"
+KUBELET_PORT="--port=10250"
 #
 ## You may leave this blank to use the actual hostname
 KUBELET_HOSTNAME="--hostname-override=172.20.0.113"
